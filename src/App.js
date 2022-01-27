@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import ContainerItem from "./Components/ContainerItem";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container text-center ">
+        <h1 className="title pt-5">Programme catalogue</h1>
+
+        <input
+          type="search"
+          placeholder="Search Programs"
+          class=" input text-center"
+        ></input>
+        <ContainerItem />
+      </div>
+
+      {/* <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <Card />
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <Card></Card>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <Card></Card>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <Card></Card>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">col-sm</div>
+          <div class="col-sm">col-sm</div>
+          <div class="col-sm">col-sm</div>
+        </div> */}
+      {/* </div> */}
+    </>
   );
 }
 
