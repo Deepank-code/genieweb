@@ -3,7 +3,7 @@ import Card from "./Card";
 const ContainerItem = () => {
   return (
     <div class="row mx-4 my4">
-      <div class="col-lg-3 col-md-4 ">
+      <div class="col-lg-3 col-md-6 ">
         <Card
           date="24/03/2022"
           img={
@@ -19,7 +19,7 @@ const ContainerItem = () => {
           enroll="94500 students enrolled here"
         />
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class="col-lg-3 col-md-6">
         <Card
           date="24/03/2022"
           namingClass="heading "
@@ -34,12 +34,12 @@ const ContainerItem = () => {
             ></img>
           }
           btnColor="darkcolor"
-          contentname="FullStack web development"
-          price="EMI starting @ 2300/month"
+          contentname="FullStack development programme"
+          price="EMI starting @2300/month"
           enroll="5600 students enrolled here"
         />
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class="col-lg-3 col-md-6">
         <Card
           date="24/03/2022"
           namingClass="heading"
@@ -54,12 +54,12 @@ const ContainerItem = () => {
             ></img>
           }
           btnColor="darkcolor"
-          contentname="full stack Data science Programme"
-          price="EMI starting @ 2300/month"
+          contentname="full stack and Data science Programme"
+          price="EMI starting @2300/month"
           enroll="600 students enrolled here"
         />
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class="col-lg-3 col-md-6">
         <Card
           date="24/03/2022"
           img={
@@ -75,7 +75,7 @@ const ContainerItem = () => {
           enroll="340+ students enrolled here"
         />
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class="col-lg-3 col-md-6">
         <Card
           date="24/03/2022"
           img={
@@ -86,12 +86,12 @@ const ContainerItem = () => {
               srcset=""
             ></img>
           }
-          contentname="Java Programming zero to hero"
+          contentname="Java Programming zero to hero programme"
           price="Worth 2000"
           enroll="840+ students enrolled here"
         />
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class="col-lg-3 col-md-6">
         <Card
           date="24/03/2022"
           namingClass="heading "
@@ -111,7 +111,7 @@ const ContainerItem = () => {
           enroll="8540+ students enrolled here"
         />
       </div>
-      <div class="col-lg-3 col-md-4">
+      <div class="col-lg-3 col-md-6">
         <Card
           date="24/03/2022"
           namingClass="heading "
@@ -131,7 +131,7 @@ const ContainerItem = () => {
           enroll="740+ students enrolled here"
         />
       </div>
-      <div class="col-lg-3 col-md-4 ">
+      <div class="col-lg-3 col-md-6 ">
         <Card
           date="24/03/2022"
           img={

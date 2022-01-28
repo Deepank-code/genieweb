@@ -4,10 +4,10 @@ const Card = (props) => {
       <div class={`card-header  ${props.namingClass} `}>{props.date}</div>
       <div class={`card-body ${props.bgcolorClass}`}>
         <h5 class="card-title my-4">{props.img}</h5>
-        <a href="#" className=" essential mx-2 my-2">
+        <a href="#" className=" essential mx-1 my-2">
           Essential
         </a>
-        <a href="#" className="beginner mx-2 my-2">
+        <a href="#" className="beginner mx-1 my-2">
           beginner
         </a>
         <p class={`card-text my-4 ${props.textColor}`}>{props.contentname}</p>
